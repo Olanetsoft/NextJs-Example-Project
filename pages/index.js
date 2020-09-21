@@ -1,12 +1,13 @@
-import Navbar from '../components/navbar';
+import Layout from '../components/layout';
 
 const Index = () => (
-    <div>
-        <Navbar/>
-        <h1>
-            Hello Next.js
-        </h1>
-    </div>
+    <Layout>
+        <div>
+            <h1>
+                Hello Next.js
+            </h1>
+        </div>
+    </Layout>
 );
 
 
