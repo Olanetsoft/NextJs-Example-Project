@@ -5,7 +5,7 @@ const Layout = (props) => {
     return (
         <div>
             <Head>
-                <title>Next Example</title>
+                <title>BITCOIN RATE CHECKER</title>
                 <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"></link>
                 <link rel="icon"
                     type="image/png"
