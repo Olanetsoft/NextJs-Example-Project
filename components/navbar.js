@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand navbar-dark bg-primary mb-4">
             {/* <div className="container"> */}
-                <a className="navbar-brand" href="#">Next Example</a>
+                <a className="navbar-brand" href="#">BITCOIN RATE CHECKER</a>
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
