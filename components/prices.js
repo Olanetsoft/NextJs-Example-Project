@@ -23,15 +23,16 @@ class Prices extends React.Component {
         }
         return (
             <div>
-                <ul className="list-group">
-                    {list}
-                </ul>
-                <br />
+               
                 <select className="form-control" onChange={e => this.setState({ currency: e.target.value })}>
                     <option value="USD">USD</option>
                     <option value="GBP">GBP</option>
                     <option value="EUR">EUR</option>
                 </select>
+                <br />
+                <ul className="list-group">
+                    {list}
+                </ul>
             </div>
         );
     }
